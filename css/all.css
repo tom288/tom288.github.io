@@ -64,7 +64,11 @@ h3 {
     float: left;
 }
 
-#nav li > a {
+#nav #avatar {
+    float: right;
+}
+
+#nav li:not(#avatar) > a {
     display: inline-block;
     text-align: center;
     padding: 10px 16px;
