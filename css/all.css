@@ -95,6 +95,7 @@ h3 {
 
 #nav li:hover .dropdown {
     display: block;
+    box-shadow: 4px 4px 4px #000;
 }
 
 #nav img {
@@ -142,10 +143,14 @@ h3 {
 }
 
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: #111;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #5500ff;
     border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background: #111;
 }
