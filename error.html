@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=800">
   <meta name="description" content="HOI's Personal Website">
-  <link rel="icon" href="/png/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&effect=anaglyph" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/all.css">
 </head>
@@ -31,7 +31,13 @@
       </div>
     </li>
     <li><a href="">Work</a></li>
-    <li id="avatar"><a href="/"><img src="/png/avatar.png" alt="HOI.TF"></a></li>
+    <li id="avatar"><a href="/">
+      <picture>
+        <source type="image/webp" srcset="/img/avatar.webp">
+        <source type="image/jpeg" srcset="/img/avatar.jpg">
+        <img src="/img/avatar.jpg" alt="HOI.TF">
+      </picture>
+    </a></li>
   </ul>
 
   <div id="content">

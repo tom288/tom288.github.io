@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=800">
   <meta name="description" content="HOI's Personal Website">
-  <link rel="icon" href="/png/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&effect=anaglyph" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/all.css">
 </head>
@@ -31,16 +31,27 @@
       </div>
     </li>
     <li><a href="">Work</a></li>
-    <li id="avatar"><a href="/"><img src="/png/avatar.png" alt="HOI.TF"></a></li>
+    <li id="avatar"><a href="/">
+      <picture>
+        <source type="image/webp" srcset="/img/avatar.webp">
+        <source type="image/jpeg" srcset="/img/avatar.jpg">
+        <img src="/img/avatar.jpg" alt="HOI.TF">
+      </picture>
+    </a></li>
   </ul>
 
   <div id="content">
     <br>
     <p>Bazooka Boy is a 2D rocket jumping game made by me and Matthew Barnes.</p>
-    <p>14/03/20 Version 1.0:<br>Initial release and submission for University of Southampton COMP3218 coursework 1</p>
-    <p>21/03/20 Version 1.1:<br>Added progress saving, partial controller support, and ESC to quit confirmation</p>
-    <h3 style="text-align: center"><a href="/download/Bazooka Boy 1.1.zip" download>Download the game</a> (Windows, 32MB)</h2>
-    <h3 style="text-align: center"><a href="/download/times.jpg">See my times</a></h2>
+    <picture>
+      <source type="image/webp" srcset="/img/bazookaboy.webp">
+      <source type="image/jpeg" srcset="/img/bazookaboy.jpg">
+      <img src="/img/bazookaboy.jpg" alt="Bazooka Boy screenshot">
+    </picture>
+    <p><b>14/03/20 Version 1.0:</b><br>Initial release and submission for University of Southampton COMP3218 coursework 1</p>
+    <p><b>21/03/20 Version 1.1:</b><br>Added progress saving, partial controller support, and ESC to quit confirmation</p>
+    <h3 style="text-align: center"><a href="/download/Bazooka Boy 1.1.zip" download>Download the game</a> (Windows, 32MB)
+    <br><a href="/img/bbtimes.jpg">See my times</a></h3>
   </div>
 </body>
 </html>

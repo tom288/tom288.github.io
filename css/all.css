@@ -111,7 +111,6 @@ h3 {
     min-height: calc(100% - 47px);
     padding: 32px 52px;
     box-sizing: border-box;
-    text-align: justify;
     margin: auto;
     background: #111;
 }
@@ -124,6 +123,11 @@ h3 {
 
 #content a:hover {
     background: #fff;
+}
+
+#content img {
+    width: 100%;
+    height: auto;
 }
 
 
